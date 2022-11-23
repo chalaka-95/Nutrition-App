@@ -60,17 +60,57 @@
 		B0323832292BE4E500C102EE /* Nutrition App */ = {
 			isa = PBXGroup;
 			children = (
+				B0E9E1DA292E9A42004A00D7 /* Components */,
+				B0E9E1D8292E99F0004A00D7 /* Models */,
+				B0E9E1D6292E9954004A00D7 /* Views */,
+				B0E9E1D9292E99FA004A00D7 /* ViewModels */,
+				B0E9E1D7292E996E004A00D7 /* Controllers */,
 				B0323833292BE4E500C102EE /* AppDelegate.swift */,
 				B0323835292BE4E500C102EE /* SceneDelegate.swift */,
-				B0323847292BE81800C102EE /* MainViewController.swift */,
 				B032383C292BE4EC00C102EE /* Assets.xcassets */,
 				B032383E292BE4EC00C102EE /* LaunchScreen.storyboard */,
 				B0323841292BE4EC00C102EE /* Info.plist */,
-				B032384B292BEB3000C102EE /* NAButton.swift */,
-				B05AD9FA292D688100C6E0C1 /* DashboardViewController.swift */,
-				B0E9E1D4292E8154004A00D7 /* TestViewController.swift */,
 			);
 			path = "Nutrition App";
+			sourceTree = "<group>";
+		};
+		B0E9E1D6292E9954004A00D7 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		B0E9E1D7292E996E004A00D7 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				B0E9E1D4292E8154004A00D7 /* TestViewController.swift */,
+				B0323847292BE81800C102EE /* MainViewController.swift */,
+				B05AD9FA292D688100C6E0C1 /* DashboardViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		B0E9E1D8292E99F0004A00D7 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		B0E9E1D9292E99FA004A00D7 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		B0E9E1DA292E9A42004A00D7 /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				B032384B292BEB3000C102EE /* NAButton.swift */,
+			);
+			path = Components;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
