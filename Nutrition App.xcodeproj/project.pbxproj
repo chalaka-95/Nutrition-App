@@ -14,7 +14,10 @@
 		B0323848292BE81800C102EE /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0323847292BE81800C102EE /* MainViewController.swift */; };
 		B032384C292BEB3000C102EE /* NAButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = B032384B292BEB3000C102EE /* NAButton.swift */; };
 		B05AD9FB292D688100C6E0C1 /* DashboardViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B05AD9FA292D688100C6E0C1 /* DashboardViewController.swift */; };
+		B06780F82933549600B6B4CE /* DiaryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B06780F72933549600B6B4CE /* DiaryViewController.swift */; };
 		B0E9E1D5292E8154004A00D7 /* TestViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0E9E1D4292E8154004A00D7 /* TestViewController.swift */; };
+		B0E9E1DE292E9BB4004A00D7 /* MainTabBarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0E9E1DD292E9BB4004A00D7 /* MainTabBarViewController.swift */; };
+		B0E9E1E0292E9F26004A00D7 /* RecipeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0E9E1DF292E9F26004A00D7 /* RecipeViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -27,7 +30,10 @@
 		B0323847292BE81800C102EE /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
 		B032384B292BEB3000C102EE /* NAButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NAButton.swift; sourceTree = "<group>"; };
 		B05AD9FA292D688100C6E0C1 /* DashboardViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DashboardViewController.swift; sourceTree = "<group>"; };
+		B06780F72933549600B6B4CE /* DiaryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiaryViewController.swift; sourceTree = "<group>"; };
 		B0E9E1D4292E8154004A00D7 /* TestViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestViewController.swift; sourceTree = "<group>"; };
+		B0E9E1DD292E9BB4004A00D7 /* MainTabBarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTabBarViewController.swift; sourceTree = "<group>"; };
+		B0E9E1DF292E9F26004A00D7 /* RecipeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecipeViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -87,6 +93,9 @@
 				B0E9E1D4292E8154004A00D7 /* TestViewController.swift */,
 				B0323847292BE81800C102EE /* MainViewController.swift */,
 				B05AD9FA292D688100C6E0C1 /* DashboardViewController.swift */,
+				B0E9E1DD292E9BB4004A00D7 /* MainTabBarViewController.swift */,
+				B0E9E1DF292E9F26004A00D7 /* RecipeViewController.swift */,
+				B06780F72933549600B6B4CE /* DiaryViewController.swift */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -129,6 +138,8 @@
 			dependencies = (
 			);
 			name = "Nutrition App";
+			packageProductDependencies = (
+			);
 			productName = "Nutrition App";
 			productReference = B0323830292BE4E500C102EE /* Nutrition App.app */;
 			productType = "com.apple.product-type.application";
@@ -157,6 +168,8 @@
 				Base,
 			);
 			mainGroup = B0323827292BE4E500C102EE;
+			packageReferences = (
+			);
 			productRefGroup = B0323831292BE4E500C102EE /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -184,8 +197,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				B032384C292BEB3000C102EE /* NAButton.swift in Sources */,
+				B06780F82933549600B6B4CE /* DiaryViewController.swift in Sources */,
 				B0323848292BE81800C102EE /* MainViewController.swift in Sources */,
 				B05AD9FB292D688100C6E0C1 /* DashboardViewController.swift in Sources */,
+				B0E9E1DE292E9BB4004A00D7 /* MainTabBarViewController.swift in Sources */,
+				B0E9E1E0292E9F26004A00D7 /* RecipeViewController.swift in Sources */,
 				B0323834292BE4E500C102EE /* AppDelegate.swift in Sources */,
 				B0E9E1D5292E8154004A00D7 /* TestViewController.swift in Sources */,
 				B0323836292BE4E500C102EE /* SceneDelegate.swift in Sources */,
